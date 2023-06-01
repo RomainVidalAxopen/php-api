@@ -19,7 +19,9 @@ composer install # installe les dépendances du projet dont symfony et doctrine
 
 ## Éxecution du serveur
 
-Un serveur Web doit renvoyer le fichier public/index.php
+En developpement on peut utiliser la commande `symfony server:start`
+
+Pour la production un serveur Web doit renvoyer le fichier public/index.php
 Pour plus d'information pour configurer le serveur web se référer
 à la documentation de Symfony
 
